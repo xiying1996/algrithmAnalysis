@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/2D_array.cpp.o -c /Users/wgx/project/algrithm/src/2D_array.cpp",
+  "file": "/Users/wgx/project/algrithm/src/2D_array.cpp",
+  "output": "CMakeFiles/agl.dir/src/2D_array.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/abstractFactory.cpp.o -c /Users/wgx/project/algrithm/src/abstractFactory.cpp",
+  "file": "/Users/wgx/project/algrithm/src/abstractFactory.cpp",
+  "output": "CMakeFiles/agl.dir/src/abstractFactory.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/array_sizeof.cpp.o -c /Users/wgx/project/algrithm/src/array_sizeof.cpp",
+  "file": "/Users/wgx/project/algrithm/src/array_sizeof.cpp",
+  "output": "CMakeFiles/agl.dir/src/array_sizeof.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/binarySearchTree.cpp.o -c /Users/wgx/project/algrithm/src/binarySearchTree.cpp",
+  "file": "/Users/wgx/project/algrithm/src/binarySearchTree.cpp",
+  "output": "CMakeFiles/agl.dir/src/binarySearchTree.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/list.cpp.o -c /Users/wgx/project/algrithm/src/list.cpp",
+  "file": "/Users/wgx/project/algrithm/src/list.cpp",
+  "output": "CMakeFiles/agl.dir/src/list.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/singleton.cpp.o -c /Users/wgx/project/algrithm/src/singleton.cpp",
+  "file": "/Users/wgx/project/algrithm/src/singleton.cpp",
+  "output": "CMakeFiles/agl.dir/src/singleton.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/agl.dir/src/spaceRepleace.cpp.o -c /Users/wgx/project/algrithm/src/spaceRepleace.cpp",
+  "file": "/Users/wgx/project/algrithm/src/spaceRepleace.cpp",
+  "output": "CMakeFiles/agl.dir/src/spaceRepleace.cpp.o"
+},
+{
+  "directory": "/Users/wgx/project/algrithm/build",
+  "command": "/usr/bin/clang++   -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/test.dir/test/test.cpp.o -c /Users/wgx/project/algrithm/test/test.cpp",
+  "file": "/Users/wgx/project/algrithm/test/test.cpp",
+  "output": "CMakeFiles/test.dir/test/test.cpp.o"
+}
+]

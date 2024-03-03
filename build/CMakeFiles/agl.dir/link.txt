@@ -1,0 +1,2 @@
+/usr/bin/ar qc libagl.a CMakeFiles/agl.dir/src/2D_array.cpp.o CMakeFiles/agl.dir/src/abstractFactory.cpp.o CMakeFiles/agl.dir/src/array_sizeof.cpp.o CMakeFiles/agl.dir/src/binarySearchTree.cpp.o CMakeFiles/agl.dir/src/list.cpp.o CMakeFiles/agl.dir/src/singleton.cpp.o CMakeFiles/agl.dir/src/spaceRepleace.cpp.o
+/usr/bin/ranlib libagl.a
