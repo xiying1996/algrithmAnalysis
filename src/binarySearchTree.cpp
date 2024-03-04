@@ -1,4 +1,4 @@
-#include "binarysearchTree.h"
+#include "binarySearchTree.h"
 #include <iostream>
 
 /**
@@ -14,8 +14,19 @@ bool BinarySearchTree<Comparable>::contains(const Comparable& x) const{
 */
 template <typename Comparable>
 void BinarySearchTree<Comparable>::insert(const Comparable& x){
+    std::cout << " insert " << x << std::endl;
     BinarySearchTree<Comparable>::insert(x, root);
 }
+
+/**
+* 将x插入到树中：忽略重复的元素
+*/
+template <typename Comparable>
+void BinarySearchTree<Comparable>::insert(Comparable&& x){
+    std::cout << "&& insert " << x << std::endl;
+    BinarySearchTree<Comparable>::insert(x, root);
+}
+
 
 /**
 * 将x从树中删除，如果没有找到x，就什么都不做
@@ -190,7 +201,19 @@ BinarySearchTree<Comparable>::BinarySearchTree(const BinarySearchTree& rhs)
 {
     root = clone(rhs.root);
 }
+// 默认构造函数
+template <typename Comparable>
+BinarySearchTree<Comparable>::BinarySearchTree()
+    : root{nullptr}
+{
+}
 
+template <typename Comparable>
+BinarySearchTree<Comparable>::BinarySearchTree(BinarySearchTree && rhs)
+     :  root{rhs.root}
+{
+    rhs.root = nullptr;
+}
 /**
 *是否是空树
 */
@@ -225,3 +248,6 @@ void BinarySearchTree<Comparable>::printTree(BinaryNode* t ,std::ostream& out) c
         printTree(t->right, out);
     }
 }
+
+template class BinarySearchTree<int>;
+template class BinarySearchTree<double>;
